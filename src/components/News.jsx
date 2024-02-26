@@ -1,0 +1,91 @@
+import NewsCard from "./NewsCard";
+import {Grid} from "@mui/material";
+
+function News() {
+    return (
+        <Grid container sx={{marginTop: '68.5px', p: 1, pt: 0, height: `calc(100vh - 68.5px)`}} spacing={2}>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}>
+                <NewsCard/>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}
+            >
+                <NewsCard/>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}
+            >
+                <NewsCard/>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}
+            >
+                <NewsCard/>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}
+            >
+                <NewsCard/>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}
+            >
+                <NewsCard/>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}
+            >
+                <NewsCard/>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}
+            >
+                <NewsCard/>
+            </Grid>
+            <Grid
+                item
+                xs={12}
+                sm={6}
+                md={4}
+                lg={3}
+            >
+                <NewsCard/>
+            </Grid>
+        </Grid>
+    )
+}
+
+export default News;
